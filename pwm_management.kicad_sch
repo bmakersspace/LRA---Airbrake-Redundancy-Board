@@ -760,6 +760,17 @@
 		)
 		(uuid "614f5ec6-9931-4b80-997f-ca450f1246c8")
 	)
+	(text "look into how youre supposed to configure a pmos circuit.\ncurrently if you ran with this, when the nmos is off, the pmos\nwould be 'floating' causing issues.\n\nyou need to add a pull up resistor of soem sort, like i did in my\ncircuit.\n\nalso i highly suggest adding pull down resistors to youre nmos gates to ensure\nthat when you make them low, they 'actually' become low.\nit just a way to ensure the line actually hits 0V.\n\nalso add gate resistors for the nmos to protect the ic."
+		(exclude_from_sim no)
+		(at 78.232 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 23 1)
+			)
+		)
+		(uuid "b24eda79-3137-4af2-aefb-63114805e47e")
+	)
 	(wire
 		(pts
 			(xy 102.87 26.67) (xy 102.87 30.48)
@@ -1058,7 +1069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 38.1 90)
+		(at 107.95 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1069,7 +1080,7 @@
 		(fields_autoplaced yes)
 		(uuid "58321a41-dece-4570-a8b2-881a688df6a9")
 		(property "Reference" "#PWR053"
-			(at 114.3 38.1 0)
+			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1080,13 +1091,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 38.1 0)
+			(at 110.49 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1419,7 +1431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 38.1 90)
+		(at 58.42 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1430,7 +1442,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe1e73bd-082e-4ef9-94de-d79983e1a6d7")
 		(property "Reference" "#PWR046"
-			(at 64.77 38.1 0)
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,13 +1453,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 38.1 0)
+			(at 60.96 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

@@ -3425,6 +3425,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Add ESD protection for the data lines"
+		(exclude_from_sim no)
+		(at 53.086 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "0dbad830-a521-47c2-bad2-df906a609f2d")
+	)
+	(text "double check me, but i dont think you can use io6 for adc reading"
+		(exclude_from_sim no)
+		(at 179.832 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "176b6a98-e9b0-4cee-9a89-02fa1ddecd00")
+	)
+	(text "make sure youre accounting for the drop across this diode.\nlike, ensure youre 5V line is ok with being a little lower than 5V.\nI see the jumper but then that kinda eliminates the whole point, no?"
+		(exclude_from_sim no)
+		(at 43.942 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "26f6e0de-0f4d-45f7-8382-cbc2032ffdd8")
+	)
 	(text "USBC Power Regulator"
 		(exclude_from_sim no)
 		(at 26.162 78.486 0)
@@ -3474,6 +3507,39 @@
 			)
 		)
 		(uuid "aa5eeec8-31b2-44d1-9620-6c567329d1d0")
+	)
+	(text "dont need esd protection here. \nonly need esd protection for outside connections.\nfor example, your data line connections need it, but your 3.3V\norginating from your own LDO doesn't"
+		(exclude_from_sim no)
+		(at 164.084 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "b472c070-da38-4b22-9c24-fdbc765d3b5c")
+	)
+	(text "add decoupling caps here.\ngeneral rule to have caps on power lines"
+		(exclude_from_sim no)
+		(at 48.514 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "bfa78d9e-c7eb-438f-b7ef-7b6d6d74e181")
+	)
+	(text "this symbol isn't matching what I see on the datasheet.\nthe BP pin is showing as SNS.\nlooking into it, seems like that datasheet and this symbol are two\ndifferent ICs.\n\ndouble check which one you want to run with, and clarify\n"
+		(exclude_from_sim no)
+		(at 44.196 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 5 1)
+			)
+		)
+		(uuid "ebb274c1-b889-4700-91a5-82ef56d110b4")
 	)
 	(junction
 		(at 124.46 137.16)
