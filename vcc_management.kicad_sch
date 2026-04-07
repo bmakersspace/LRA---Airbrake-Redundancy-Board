@@ -211,6 +211,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small_US"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1186,6 +1342,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1471,9 +1766,9 @@
 		)
 		(uuid "0b69521a-7373-4e50-8df5-5de0a1c4533d")
 	)
-	(text "look in the datasheet to see how they hook up the IC.\nyoure not using any of the passives they want to be used.\nthis circuit may not work as inteded then."
+	(text "i updated with the passives. \nI used the AZ1117C-3.3 for reference on page 3 (typical applications circuits)"
 		(exclude_from_sim no)
-		(at 44.45 157.734 0)
+		(at 54.102 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1482,9 +1777,9 @@
 		)
 		(uuid "233ad5b2-c45f-4901-a7ab-3fbe8c487d12")
 	)
-	(text "same issues with the pwm_managment high side circuit"
+	(text "Added a pull up, pull down, and gate resistor. \nSame hand wavey calcs for the gate resistors."
 		(exclude_from_sim no)
-		(at 143.002 56.388 0)
+		(at 137.668 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,9 +1798,9 @@
 		)
 		(uuid "3cb72b2e-8bb9-4078-9ce5-dec028e50f07")
 	)
-	(text "actually put values for resistors here.\notherwise i cannot check if this voltage divider will work\nor not"
+	(text "voltage divider values put in for a stepdown from 8V to 3.3V"
 		(exclude_from_sim no)
-		(at 91.694 111.506 0)
+		(at 73.914 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1514,22 +1809,47 @@
 		)
 		(uuid "426eb0c8-5cd4-4c87-be70-c959cb9a799f")
 	)
-	(text "double check me, but i dont think you can use io6 for adc reading"
-		(exclude_from_sim no)
-		(at 78.232 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 5 1)
-			)
-		)
-		(uuid "6e6eae8d-45e9-4992-9f61-f5a49effb7c7")
+	(junction
+		(at 95.25 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014cac38-b9cb-4077-91ca-d045588bdf04")
 	)
 	(junction
 		(at 33.02 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29079784-814d-419e-9635-b3b9b17d6607")
+	)
+	(junction
+		(at 90.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360f73f9-af58-4c05-ac99-fb814e440ed4")
+	)
+	(junction
+		(at 40.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4860f341-283d-4ec8-8e3b-1657b309c3de")
+	)
+	(junction
+		(at 45.72 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97104127-5c5d-4ed8-96ec-66c09f36b823")
+	)
+	(junction
+		(at 31.75 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cd85b00-6185-4816-9201-96ad50cc3b12")
+	)
+	(junction
+		(at 57.15 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cff4cc14-3401-4c96-b638-a598d61bcd07")
 	)
 	(wire
 		(pts
@@ -1553,6 +1873,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 55.88) (xy 40.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1b1d43-495f-4a95-a827-faf8810fff2a")
+	)
+	(wire
+		(pts
 			(xy 36.83 106.68) (xy 33.02 106.68)
 		)
 		(stroke
@@ -1563,23 +1893,93 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 43.18) (xy 95.25 46.99)
+			(xy 68.58 57.15) (xy 77.47 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "454e994f-3591-4784-81fc-8729f56b33fc")
+		(uuid "4415d98d-2160-453d-8561-3493ba7fcb1c")
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 45.72 46.99)
+			(xy 57.15 137.16) (xy 54.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecb7c85-27c9-4997-b678-efc10e14e1ef")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7567ce75-f9ad-42fa-ae4b-3f2cc84d8f9a")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 45.72 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75e5eade-20ec-46e1-a30c-5f8d1747dbc3")
+	)
+	(wire
+		(pts
+			(xy 35.56 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e42af8-75e4-4ea8-928c-81d8a27ab299")
+	)
+	(wire
+		(pts
+			(xy 27.94 137.16) (xy 31.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45667bb-08ab-4d84-b1b6-4e97b59c78ff")
+	)
+	(wire
+		(pts
+			(xy 86.36 46.99) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52b2908-2a7e-43dc-8169-92108248d09c")
+	)
+	(wire
+		(pts
+			(xy 85.09 57.15) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79727e1-2410-4677-9de2-410fc2234d79")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd95c3f2-40f0-4381-9378-26782c636624")
 	)
 	(wire
 		(pts
@@ -1590,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "ce9860ed-3e0c-4c42-9910-1f5c2413a830")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b8dd03-5aea-4720-99f8-3a05f8a46c05")
 	)
 	(wire
 		(pts
@@ -1613,13 +2023,53 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 57.15) (xy 40.64 54.61)
+			(xy 62.23 137.16) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96b3225-f3e0-4374-8cbd-9e8b324e6779")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 40.64 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efd82c97-c1ed-442d-ae55-c1071d102935")
+	)
+	(wire
+		(pts
+			(xy 35.56 26.67) (xy 36.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d20df1-10c6-462c-9a10-21f0503bae96")
+	)
+	(wire
+		(pts
+			(xy 31.75 137.16) (xy 39.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a6e1ec-2a47-4330-900c-e02c3683db3c")
+	)
+	(wire
+		(pts
+			(xy 21.59 55.88) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6538672-a384-407e-abb7-c7798dcc6e8f")
 	)
 	(global_label "Main Board Input VCC"
 		(shape input)
@@ -1743,7 +2193,7 @@
 	)
 	(global_label "1OE"
 		(shape input)
-		(at 45.72 43.18 180)
+		(at 45.72 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +2203,7 @@
 		)
 		(uuid "b8734b5c-10f4-4b50-a14d-af92bd2a0fd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.0458 43.18 0)
+			(at 39.0458 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +2217,7 @@
 	)
 	(global_label "2OE"
 		(shape input)
-		(at 95.25 43.18 180)
+		(at 95.25 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1777,7 +2227,7 @@
 		)
 		(uuid "d16f1da5-2549-404e-b75f-f7f9d00a1576")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.5758 43.18 0)
+			(at 88.5758 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +2289,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 20.32 128.27) (xy 63.5 128.27) (xy 63.5 152.4) (xy 20.32 152.4)
+				(xy 20.32 128.27) (xy 75.0808 128.4328) (xy 75.0808 152.5628) (xy 20.32 152.4)
 			)
 			(stroke
 				(width 0)
@@ -1887,6 +2337,87 @@
 				(type none)
 			)
 			(uuid "e9c08ff0-b159-4906-8d10-2db23ddd59cb")
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 57.15 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0449c1e5-bbd3-4e60-bc07-9b721dd268ad")
+		(property "Reference" "C3"
+			(at 59.69 138.5569 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 µF"
+			(at 59.944 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a28b841e-8135-41eb-8635-24dbe8453363")
+		)
+		(pin "1"
+			(uuid "601ceb1f-1a55-433d-b8b3-bf6c99ca9178")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2155,8 +2686,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 54.61 137.16 270)
+		(lib_id "Device:R_US")
+		(at 35.56 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2164,10 +2695,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5106048e-ed59-4546-9e9e-733f79a4b0f6")
-		(property "Reference" "#PWR047"
-			(at 50.8 137.16 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "40c36f2b-6ac7-4651-8631-83ab4f709600")
+		(property "Reference" "R15"
+			(at 35.56 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2176,8 +2707,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 59.055 137.16 0)
+		(property "Value" "10k Ω"
+			(at 35.56 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2187,7 +2718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 137.16 0)
+			(at 35.814 45.974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +2729,165 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 137.16 0)
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "815f40a3-1465-4e59-a753-e402dba6cfab")
+		)
+		(pin "2"
+			(uuid "de2d82f0-3022-4a5c-a366-99b345dceb02")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7d30e4-eec3-4afa-96b6-217f7a19c85f")
+		(property "Reference" "#PWR048"
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cc019b6-50cb-4295-8aff-4508b120b99f")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 62.23 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5106048e-ed59-4546-9e9e-733f79a4b0f6")
+		(property "Reference" "#PWR047"
+			(at 62.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 62.23 132.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2209,7 +2898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 54.61 137.16 0)
+			(at 62.23 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2232,6 +2921,86 @@
 			(project "ESP32-C3-DevBoard"
 				(path "/7d12a2ec-37ee-4fc9-8e2d-717b3606aa2b"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "579a4cd2-0aa7-4fe3-8a09-ccb9851be5eb")
+		(property "Reference" "R13"
+			(at 82.55 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 82.55 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.804 45.974 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac33f0f5-bf2c-4edb-a040-c246b869615d")
+		)
+		(pin "2"
+			(uuid "c42f3d72-8284-4834-930c-5ea921b2fb9c")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2330,8 +3099,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 39.37 137.16 90)
+		(lib_id "power:+3V3")
+		(at 21.59 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2339,10 +3108,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7310e1c2-3922-4e4b-a0cd-7be8b0743e74")
-		(property "Reference" "#PWR044"
-			(at 43.18 137.16 0)
+		(uuid "7153e5b5-87eb-4b79-a549-8e0f40627d3f")
+		(property "Reference" "#PWR059"
+			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,19 +3120,18 @@
 				)
 			)
 		)
-		(property "Value" "Back Up VCC"
-			(at 35.56 137.1599 90)
+		(property "Value" "+3V3"
+			(at 21.59 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 137.16 0)
+			(at 21.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +3142,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 137.16 0)
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a0ab298-4deb-4bc6-b4b4-edb2a9fc42fe")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 27.94 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7310e1c2-3922-4e4b-a0cd-7be8b0743e74")
+		(property "Reference" "#PWR044"
+			(at 27.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Back Up VCC"
+			(at 21.844 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +3231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 39.37 137.16 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,7 +3261,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 36.83 29.21 90)
+		(at 35.56 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2424,10 +3269,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7412aeb9-ff48-485b-aad3-fea3ab1923af")
 		(property "Reference" "#PWR041"
-			(at 40.64 29.21 0)
+			(at 35.56 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +3282,7 @@
 			)
 		)
 		(property "Value" "Back Up VCC"
-			(at 33.02 29.2099 90)
+			(at 21.336 25.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2449,7 +3293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 29.21 0)
+			(at 35.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +3304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 29.21 0)
+			(at 35.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +3315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 36.83 29.21 0)
+			(at 35.56 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +3345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 26.67 270)
+		(at 35.56 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2509,10 +3353,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "792adcf5-8af3-4db3-bae1-3e8fd51bba9f")
 		(property "Reference" "#PWR040"
-			(at 30.48 26.67 0)
+			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,18 +3366,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 26.6699 90)
+			(at 29.464 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 26.67 0)
+			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +3388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 26.67 0)
+			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +3399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 26.67 0)
+			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,6 +3422,169 @@
 			(project "ESP32-C3-DevBoard"
 				(path "/7d12a2ec-37ee-4fc9-8e2d-717b3606aa2b"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 31.75 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7aa77514-86fa-434d-b0c3-b5edf45c37c2")
+		(property "Reference" "C2"
+			(at 34.29 138.5569 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 34.544 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 31.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6b9a906-4c7e-4fa4-b8e5-a5afda3dee0c")
+		)
+		(pin "1"
+			(uuid "4190a222-1d59-4f4f-8217-ea743d1f4010")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 45.72 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c39c0dc-161f-4406-bb63-873e3959700f")
+		(property "Reference" "R18"
+			(at 48.26 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k Ω"
+			(at 48.26 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.704 42.926 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 45.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf5e931-718e-4e04-8a7f-ff853980f180")
+		)
+		(pin "2"
+			(uuid "978ce96a-62f8-4762-af4f-5ed1c0f427df")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2677,6 +3683,239 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d9ea7e1-72c1-4b09-9fb4-19e7ab08892a")
+		(property "Reference" "#PWR060"
+			(at 31.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fda62980-32bf-45be-b7b5-897d3d572e19")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94dec2ee-81c0-49c1-8189-f2e1bf210bb3")
+		(property "Reference" "#PWR058"
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "540a8a9d-1404-4ceb-95a9-23af745f318d")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 81.28 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af24dddd-9a57-406e-af30-363486bedddb")
+		(property "Reference" "R7"
+			(at 81.28 52.324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 81.026 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.534 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba66dd68-bf25-46b7-860a-972dc1179f05")
+		)
+		(pin "2"
+			(uuid "0b40ea0e-24a2-480f-a7fe-82237fe6d4a6")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 49.53 116.84 90)
 		(unit 1)
@@ -2698,7 +3937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 53.975 114.173 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,6 +4180,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 31.75 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c422fc86-537d-46c0-b2f5-0ad311a1277b")
+		(property "Reference" "R14"
+			(at 31.75 51.054 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 31.496 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.004 54.864 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "022f6599-f87e-4398-a3a9-376be912c85e")
+		)
+		(pin "2"
+			(uuid "7b480142-46b0-4c28-a97b-f27f10bc63df")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 33.02 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -2962,7 +4280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "14.3k"
 			(at 35.56 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,6 +4340,165 @@
 			(project "ESP32-C3-DevBoard"
 				(path "/7d12a2ec-37ee-4fc9-8e2d-717b3606aa2b"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d23afdaf-003f-4f5f-98a6-ee3878f57a7f")
+		(property "Reference" "#PWR057"
+			(at 68.58 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7134e795-dc83-4852-8f5f-e7f8b92841ef")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f90d3e-37e3-4255-be19-db25399c978b")
+		(property "Reference" "R19"
+			(at 97.79 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k Ω"
+			(at 97.79 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.234 41.656 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65f8b6cf-0e3e-4abe-ac4f-7a6e1d4f27b9")
+		)
+		(pin "2"
+			(uuid "ca81d60c-e1e2-4c42-89d9-9de1b405578e")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3112,6 +4589,84 @@
 			(project "ESP32-C3-DevBoard"
 				(path "/7d12a2ec-37ee-4fc9-8e2d-717b3606aa2b"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee514534-b236-4355-81f5-9acf63b7587e")
+		(property "Reference" "#PWR049"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "519d54f9-fe82-4176-8896-d5142b463e25")
+		)
+		(instances
+			(project "Airbrake Redundancy Board"
+				(path "/3d02dc15-9284-4317-af0a-4ac187510b3d/753a9d42-2c49-450d-8b11-131e3df8ef80"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

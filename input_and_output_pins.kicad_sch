@@ -390,17 +390,6 @@
 		)
 		(uuid "42cf771d-2227-4472-bd49-9d3dfcd4f154")
 	)
-	(text "just something small.\ncommon syntax in schematics is to have ground symbols pointing down\nand power rail sysmbols pointing up.\ndoesn't affect anything, just looks better\ndid it for you here, but just seomthing to keep in mind."
-		(exclude_from_sim no)
-		(at 102.108 24.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 5 1)
-			)
-		)
-		(uuid "4616df2d-c957-4a17-b635-38daf6c91b38")
-	)
 	(text "Output\n"
 		(exclude_from_sim no)
 		(at 23.368 17.272 0)
