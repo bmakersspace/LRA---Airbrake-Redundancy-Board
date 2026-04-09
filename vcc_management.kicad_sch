@@ -1766,9 +1766,9 @@
 		)
 		(uuid "0b69521a-7373-4e50-8df5-5de0a1c4533d")
 	)
-	(text "i updated with the passives. \nI used the AZ1117C-3.3 for reference on page 3 (typical applications circuits)"
+	(text "again, stick to non polarized caps here\n\nif you are powering VBUS, you must ensure you NEVER have the battery pack\nfor Bakc Up VCC and your USBC connected at the same time. \ncurrently you have two sources powering VBUS, keep this in mind.\n\nalso, is Back UP VCC 8V? If so, I would look into a buck converter.\n3V drop with an LDO will create A LOT of heat, could burn an IC."
 		(exclude_from_sim no)
-		(at 54.102 157.226 0)
+		(at 54.102 163.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1777,9 +1777,9 @@
 		)
 		(uuid "233ad5b2-c45f-4901-a7ab-3fbe8c487d12")
 	)
-	(text "Added a pull up, pull down, and gate resistor. \nSame hand wavey calcs for the gate resistors."
+	(text "same thing about the nmos and pmos from other sheet. double check orientation\nand if the PMOS gate voltage is enough. add pull down on output line\n\nthe whole leakage and sensative PWM signal stuff does not\napply here. we can keep this as is, as we do not really care about\na square wave in this scenario.\n\nalso is input VCC expected to be 8V here? if so,\nthe PMOS will not wotk with a 3.3V gate voltage."
 		(exclude_from_sim no)
-		(at 137.668 56.896 0)
+		(at 156.718 59.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)

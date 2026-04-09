@@ -1088,9 +1088,9 @@
 		)
 		(uuid "614f5ec6-9931-4b80-997f-ca450f1246c8")
 	)
-	(text "added pull up, pull down, and gate resistors.\n I think 10k for both the pull up and down resistors\nshould be enough but i hand waved that. Same thing\nwith the 1k gate resistor"
+	(text "i think the nmos might be backwards, double check.\ncurrent flows drain to source for an nmos\n\nalso double check that the gate voltgae will ALWAYS be higher than the \npwm signal to ensure it actually turns off.\n\nI also asked another friend about this and he said that it might\nbe smart to put another pmos, like source to source, to prevent\nleakage incase the pmos does not turn fully off. look more into that\nroute.\nthis lowkey caused me to think more about this and it might be\nsmarter to use some sort of MUX system instead of this, as I forgot\nthe PWM signal is very delicate. if old PWM accidently starts to combine\nwith the new PWM, it could cause BIG issues with the servo. look into\nthis route as well and see if you agree with me or not.\n\nalso add a pull down on the output pwm to ensure it clears the line\nwhen the switch does happen."
 		(exclude_from_sim no)
-		(at 73.152 65.532 0)
+		(at 73.406 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
